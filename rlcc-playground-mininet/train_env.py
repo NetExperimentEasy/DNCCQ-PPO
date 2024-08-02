@@ -3,7 +3,7 @@ from mininet.log import setLogLevel
 
 setLogLevel('info')
 
-XQUIC_PATH = '/home/seclee/coding/rl-env-mininet/xquic' # 应该是2rtt采样
+XQUIC_PATH = '../xquic' # 应该是2rtt采样
 
 map_c_2_rlcc_flag = {
     'c1': "1001",
