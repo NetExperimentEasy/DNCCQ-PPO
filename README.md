@@ -60,14 +60,14 @@ cd rlcc-playground-mininet
 sudo python train_env.py
 ```
 
-2. How to train(use rllib)
-
+2. How to train
+   use rllib
 ```
 cd train-code/rllib/singe
 python train.py
 ```
 
-   or use Sample Factory for training
+   or use Sample Factory
 
 ```
 cd train-code/rlcc-sf
