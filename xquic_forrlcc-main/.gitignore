@@ -1,0 +1,4 @@
+build/
+bss/
+*.swp
+third_party/

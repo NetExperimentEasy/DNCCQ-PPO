@@ -1,0 +1,7 @@
+*\checkpoint*
+*\wandb
+*\train_dir
+*\baseTrain
+*\__pycache__
+*\rlccnpy
+*.npy
