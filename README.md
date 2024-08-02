@@ -21,7 +21,7 @@ The static-build-xquic directory is for statically compiling the xquic client.
 
 All use python3
 
-#### streamlit
+### streamlit
 
 `pip install streamlit`
 
@@ -35,17 +35,17 @@ All use python3
 
 `pip install gym`
 
-#### Install the gym environment of this project in modify mode
+### Install the gym environment of this project in modify mode
 
 `cd gym-rlcc`
 
 `pip install -e .`
 
-#### install Sample Factory 
+### install Sample Factory 
 
 `pip install sample-factory`
 
-#### install rllib
+### install rllib
 
 `pip install ray==2.1.0`
 
@@ -81,3 +81,5 @@ cd rlcc-playground-mininet
 cd webui
 streamlit run app.py
 ```
+The visual interface is as follows:
+![image](https://github.com/NetExperimentEasy/DNCCQ-PPO/blob/main/web.png)
