@@ -5,7 +5,7 @@ The diversity of network forms and services poses challenges for TCP protocol fr
 
 ## Directory Introduction
 
-> **node:** Every time you modify the sampling mechanism and action space, you need to recompile XQUIC. You can use static compilation or dynamic compilation.For static compilation, see static-build-xquic；For dynamic compilation, see xquic_forrlcc.
+> **note:** Every time you modify the sampling mechanism and action space, you need to recompile XQUIC. You can use static compilation or dynamic compilation.For static compilation, see static-build-xquic；For dynamic compilation, see xquic_forrlcc.
 
 The rlcc-playground-mininet directory is used to start the training environment, which includes the network simulation module, Open Gym module, and visualization module. When developing and training congestion control algorithms, you can easily use this environment and use the implemented OpenAI Gym module to interact with the environment for training.
 
