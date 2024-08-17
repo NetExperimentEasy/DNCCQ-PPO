@@ -5,13 +5,15 @@ The diversity of network forms and services poses challenges for TCP protocol fr
 
 ## Directory Introduction
 
-> **note:** Every time you modify the sampling mechanism and action space, you need to recompile XQUIC. You can use static compilation or dynamic compilation.For static compilation, see static-build-xquic；For dynamic compilation, see xquic_forrlcc.
+> **node:** Every time you modify the sampling mechanism and action space, you need to recompile XQUIC. You can use static compilation or dynamic compilation.For static compilation, see static-build-xquic；For dynamic compilation, see xquic_forrlcc.
 
 The rlcc-playground-mininet directory is used to start the training environment, which includes the network simulation module, Open Gym module, and visualization module. When developing and training congestion control algorithms, you can easily use this environment and use the implemented OpenAI Gym module to interact with the environment for training.
 
 The train-code directory is the training module. You can use the rllib library or the Sample Factory library for training.
 
 The xquic_forrlcc directory is the executor, namely XQUIC congestion control, which is implemented in the form of a patch in the C language implementation of the XQUIC protocol library.
+
+The deploy directory  is a deployment module that can be used to test the effect of the trained model.
 
 The measureFramework-forxquic directory is the measureframework modified by XQUIC, which starts  XQUIC flow.
 
@@ -20,6 +22,12 @@ The static-build-xquic directory is for statically compiling the xquic client.
 ## Environment Configuration
 
 All use python3
+
+### mininet
+
+`git clone https://gitee.com/derekwin/mininet.git`
+
+`./mininet/util/install.sh -a`
 
 ### streamlit
 
@@ -51,7 +59,7 @@ All use python3
 
 `pip install -U "ray[rllib]"`
 
-# QuickStart Guide
+# QuickStart
 
 1. How to start the training environment
 
@@ -83,3 +91,11 @@ streamlit run app.py
 ```
 The visual interface is as follows:
 ![image](https://github.com/NetExperimentEasy/DNCCQ-PPO/blob/main/web.png)
+
+4. How to deploy
+
+```
+cd deploy 
+python deploy.py
+```
+
