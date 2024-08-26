@@ -77,7 +77,7 @@ sudo python train_env.py
 2. How to train
    (use rllib)
 ```
-cd train-code/rllib/singe
+cd train-code/rllib/single
 python train.py
 ```
 
