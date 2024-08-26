@@ -49,7 +49,7 @@ All use python3
 
 ### Install the gym environment of this project in modify mode
 
-`cd rlcc-playground-mininet
+`cd rlcc-playground-mininet`
 
 `cd gym-rlcc`
 
