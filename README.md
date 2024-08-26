@@ -19,7 +19,7 @@ The measureFramework-forxquic directory is the measureframework modified by XQUI
 
 The static-build-xquic directory is for statically compiling the xquic client.
 
-## Environment Configuration
+## dependency
 
 All use python3
 
@@ -32,6 +32,8 @@ All use python3
 ### streamlit
 
 `pip install streamlit`
+> if protobuf got err
+`pip install protobuf==3.20.1`
 
 ### redis-py & redis
 
@@ -44,6 +46,8 @@ All use python3
 `pip install gym`
 
 ### Install the gym environment of this project in modify mode
+
+`cd rlcc-playground-mininet
 
 `cd gym-rlcc`
 
