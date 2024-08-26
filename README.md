@@ -63,7 +63,7 @@ All use python3
 
 `pip install ray==2.1.0`
 
-`pip install -U "ray[rllib]"`
+`pip install ray[rllib]==2.1.0`
 
 # QuickStart
 
