@@ -32,7 +32,9 @@ All use python3
 ### streamlit
 
 `pip install streamlit`
+
 > if protobuf got err
+
 `pip install protobuf==3.20.1`
 
 ### redis-py & redis
