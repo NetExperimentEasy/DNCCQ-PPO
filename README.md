@@ -66,7 +66,7 @@ All use python3
 `pip install ray[rllib]==2.1.0`
 
 # QuickStart
-
+> Before starting the training environment, you need to compile the XQUIC client to support XQUIC congestion control. You can choose to perform a static build by referring to static-build-xquic, or a dynamic build by referring to xquic_forrlcc. After the compilation is complete, navigate to the `rlcc-playground-mininet` directory and update the XQUIC path in the `train_env.py` file to the path of the XQUIC you just compiled.
 1. How to start the training environment
 
 ```
