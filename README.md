@@ -105,3 +105,20 @@ cd deploy
 python deploy.py
 ```
 
+## Reference
+
+Feel free to cite DNCCQ-PPO if you find it useful:
+
+```bibtex
+@article{yu2025dnccq,
+  title={DNCCQ-PPO: A dynamic network congestion control algorithm based on deep reinforcement learning for XQUIC},
+  author={Yu, Wenhui and Liu, Jinyao and Di, Xiaoqiang and Xiao, Pei and Qi, Hui},
+  journal={Journal of Network and Computer Applications},
+  pages={104371},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
+avaliable at [url](https://www.sciencedirect.com/science/article/pii/S1084804525002681)
+
