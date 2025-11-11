@@ -120,5 +120,5 @@ Feel free to cite DNCCQ-PPO if you find it useful:
 }
 ```
 
-avaliable at [url](https://www.sciencedirect.com/science/article/pii/S1084804525002681)
+Available at [url](https://www.sciencedirect.com/science/article/pii/S1084804525002681)
 
